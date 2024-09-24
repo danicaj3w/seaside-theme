@@ -1,0 +1,21 @@
+{
+  "name": "seaside-theme",
+  "displayName": "Seaside Theme",
+  "description": "Dark theme with blues, greens, and yellow accents.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Seaside Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Seaside Theme-color-theme.json"
+      }
+    ]
+  }
+}
